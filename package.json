@@ -1,0 +1,30 @@
+{
+  "name": "iloveali",
+  "version": "1.0.0",
+  "description": "I Love Ali",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "postcss ./src/css/**/*.css -o ./public/css/iloveali.css --watch",
+    "build:css": "postcss ./src/css/iloveali.css -o ./public/css/iloveali.css",
+    "production:css": "NODE_ENV=production postcss ./src/css/iloveali.css -o ./public/css/iloveali.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadkarimi1991/iloveali.git"
+  },
+  "keywords": [
+    "ali"
+  ],
+  "author": "Ahmad Karimi",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/ahmadkarimi1991/iloveali/issues"
+  },
+  "homepage": "https://github.com/ahmadkarimi1991/iloveali#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1",
+    "win-node-env": "^0.4.0"
+  }
+}
